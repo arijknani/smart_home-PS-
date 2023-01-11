@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">projetsem</string>
+    <string name="Living">Living Room</string>
+    <string name="kit">Kitchen</string>
+    <string name="bath">BathRoom</string>
+    <string name="dadhboard">Dashboard</string>
+    <string name="welcome">Welcome</string>
+    <string name="bedroom">Bedroom</string>
+    <string name="kitchen">Kitchen</string>
+    <string name="bathroom">Bathroom</string>
+    <string name="livingroom">Living room</string>
+    <string name="sign_in">Sign in</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="switch5">Switch</string>
+    <string name="create_account">Create Account ? </string>
+    <string name="or_sign_in_with">Or sign in with</string>
+    <string name="et_bedroom">Bedroom</string>
+    <string name="light">Light</string>
+    <string name="et_light">Light</string>
+    <string name="temperature">Temperature</string>
+    <string name="valeur">Valeur</string>
+    <string name="gaz">Gaz</string>
+    <string name="valeur2">Valeur</string>
+</resources>

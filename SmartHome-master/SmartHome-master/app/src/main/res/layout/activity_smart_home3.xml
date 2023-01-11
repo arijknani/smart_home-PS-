@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmartHome3Activity">
+
+    <LinearLayout
+        android:layout_width="163dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t3">
+
+        <TextView
+            android:layout_width="33dp"
+            android:layout_height="34dp"
+            android:background="@drawable/circlevide"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="656dp" />
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="33dp"
+            android:layout_height="34dp"
+            android:background="@drawable/circle"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="656dp" />
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="33dp"
+            android:layout_height="34dp"
+            android:background="@drawable/circlevide"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="656dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="229dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/backgroundshape"
+        android:text="   Access To Everything"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="58dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="640dp"
+        android:text="Skip"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="414dp"
+        android:layout_height="426dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2°Step"
+            android:textColor="@color/blue"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginStart="320dp"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/secondstep" />
+
+    </FrameLayout>
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/t3"
+        android:layout_width="303dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="40dp"
+        android:text="You are few click away to enter, The world of Smart Home. "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

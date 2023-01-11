@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "749703758474",
+    "firebase_url": "https://gaz-esp-default-rtdb.firebaseio.com",
+    "project_id": "gaz-esp",
+    "storage_bucket": "gaz-esp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749703758474:android:d7eb433517ed98c5322373",
+        "android_client_info": {
+          "package_name": "eniso.gte2.projetsem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749703758474-iomilg9p8jn1vote1b8ooeg8c62hvsae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALdjjuTUsuZJ7fT5Z4XJ_yhEngvmay0Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749703758474-iomilg9p8jn1vote1b8ooeg8c62hvsae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
